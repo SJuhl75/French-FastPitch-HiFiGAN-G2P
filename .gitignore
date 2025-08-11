@@ -1,6 +1,8 @@
 /.quarto/
 search.json
 *.html
+!README.html
 *.css
 *.js
 *.woff
+DEADJOE
