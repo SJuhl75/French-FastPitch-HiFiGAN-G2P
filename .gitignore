@@ -1,0 +1,6 @@
+/.quarto/
+search.json
+*.html
+*.css
+*.js
+*.woff
