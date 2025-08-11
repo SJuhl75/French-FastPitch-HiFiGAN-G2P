@@ -2,6 +2,7 @@
 search.json
 *.html
 !README.html
+!/README_files/*
 *.css
 *.js
 *.woff
