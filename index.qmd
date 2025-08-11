@@ -21,4 +21,4 @@ This site documents experiments, demos, and resources about building French Text
 
 ---
 
-*Feel free to fork, contribute, or reach out!*
+*Feel free to fork, contribute, or reach out!*  
