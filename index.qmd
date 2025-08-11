@@ -1,0 +1,24 @@
+---
+title: "French FastPitch HiFiGAN G2P"
+---
+
+# Bienvenue!
+
+This site documents experiments, demos, and resources about building French Text-to-Speech systems using **FastPitch**, **HiFi-GAN**, and **G2P** (grapheme-to-phoneme conversion).
+
+- Explore [Jupyter Notebooks](notebooks/fastpitch-hifigan-demo.ipynb) for interactive code and experiments.
+- See the README for setup and contribution instructions.
+
+---
+
+## Topics
+
+- TTS pipelines and models for French
+- FastPitch training and inference
+- HiFi-GAN vocoder usage
+- G2P techniques and data
+- Audio samples and evaluation
+
+---
+
+*Feel free to fork, contribute, or reach out!*
