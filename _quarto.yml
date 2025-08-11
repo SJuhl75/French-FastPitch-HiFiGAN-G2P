@@ -1,0 +1,15 @@
+project:
+  type: website
+
+website:
+  title: "French FastPitch HiFiGAN G2P"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Notebooks
+        href: notebooks/fastpitch-hifigan-demo.ipynb
+format:
+  html:
+    theme: cosmo
+    toc: true
