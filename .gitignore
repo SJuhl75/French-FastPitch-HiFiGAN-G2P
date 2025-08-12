@@ -1,8 +1,8 @@
+!README.html
+!README_files/*
 /.quarto/
 search.json
 *.html
-!README.html
-!README_files/*
 *.css
 *.js
 *.woff
