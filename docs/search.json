@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "French FastPitch HiFiGAN G2P",
+    "section": "",
+    "text": "This site documents experiments, demos, and resources about building French Text-to-Speech systems using FastPitch, HiFi-GAN, and G2P (grapheme-to-phoneme conversion).\n\nExplore Jupyter Notebooks for interactive code and experiments.\nSee the README for setup and contribution instructions.\n\n\n\n\n\nTTS pipelines and models for French\nFastPitch training and inference\nHiFi-GAN vocoder usage\nG2P techniques and data\nAudio samples and evaluation\n\n\nFeel free to fork, contribute, or reach out!"
+  },
+  {
+    "objectID": "index.html#topics",
+    "href": "index.html#topics",
+    "title": "French FastPitch HiFiGAN G2P",
+    "section": "",
+    "text": "TTS pipelines and models for French\nFastPitch training and inference\nHiFi-GAN vocoder usage\nG2P techniques and data\nAudio samples and evaluation\n\n\nFeel free to fork, contribute, or reach out!"
+  },
+  {
+    "objectID": "README_GP.html",
+    "href": "README_GP.html",
+    "title": "French-FastPitch-HiFiGAN-G2P",
+    "section": "",
+    "text": "This repository documents experiments, demos, and notes on French Text-to-Speech (TTS) using FastPitch, HiFi-GAN, and G2P (grapheme-to-phoneme conversion), powered by Quarto for beautiful, reproducible websites.\n\n\n.\n├── _quarto.yml        # Quarto site configuration\n├── index.qmd          # Home page\n├── notebooks/         # Jupyter notebooks\n│   └── fastpitch-hifigan-demo.ipynb\n├── README.md          # This file\n\n\n\n\nClone this repo:\ngit clone https://github.com/&lt;your-username&gt;/French-FastPitch-HiFiGAN-G2P.git\ncd French-FastPitch-HiFiGAN-G2P\nInstall Quarto:\n\nDownload from https://quarto.org/download/\n(Optional) For notebooks: pip install jupyter\n\nPreview the site:\nquarto preview\nPublish to GitHub Pages:\n\nPush to GitHub.\nIn repo settings, enable GitHub Pages (branch: main and / folder).\nOr use: quarto publish gh-pages\n\n\n\n\n\n\nPlace new notebooks in notebooks/.\nAdd .qmd or .md files for guides, results, or commentary.\nUpdate _quarto.yml to add them to the navigation bar.\n\n\nHappy experimenting! 🎤🇫🇷"
+  },
+  {
+    "objectID": "README_GP.html#structure",
+    "href": "README_GP.html#structure",
+    "title": "French-FastPitch-HiFiGAN-G2P",
+    "section": "",
+    "text": ".\n├── _quarto.yml        # Quarto site configuration\n├── index.qmd          # Home page\n├── notebooks/         # Jupyter notebooks\n│   └── fastpitch-hifigan-demo.ipynb\n├── README.md          # This file"
+  },
+  {
+    "objectID": "README_GP.html#quickstart",
+    "href": "README_GP.html#quickstart",
+    "title": "French-FastPitch-HiFiGAN-G2P",
+    "section": "",
+    "text": "Clone this repo:\ngit clone https://github.com/&lt;your-username&gt;/French-FastPitch-HiFiGAN-G2P.git\ncd French-FastPitch-HiFiGAN-G2P\nInstall Quarto:\n\nDownload from https://quarto.org/download/\n(Optional) For notebooks: pip install jupyter\n\nPreview the site:\nquarto preview\nPublish to GitHub Pages:\n\nPush to GitHub.\nIn repo settings, enable GitHub Pages (branch: main and / folder).\nOr use: quarto publish gh-pages"
+  },
+  {
+    "objectID": "README_GP.html#add-your-work",
+    "href": "README_GP.html#add-your-work",
+    "title": "French-FastPitch-HiFiGAN-G2P",
+    "section": "",
+    "text": "Place new notebooks in notebooks/.\nAdd .qmd or .md files for guides, results, or commentary.\nUpdate _quarto.yml to add them to the navigation bar.\n\n\nHappy experimenting! 🎤🇫🇷"
+  },
+  {
+    "objectID": "notebooks/fastpitch-hifigan-demo.html",
+    "href": "notebooks/fastpitch-hifigan-demo.html",
+    "title": "French FastPitch + HiFiGAN Demo",
+    "section": "",
+    "text": "This notebook demonstrates the use of FastPitch and HiFi-GAN for French text-to-speech synthesis, including basic G2P (grapheme-to-phoneme) conversion."
+  },
+  {
+    "objectID": "notebooks/fastpitch-hifigan-demo.html#requirements",
+    "href": "notebooks/fastpitch-hifigan-demo.html#requirements",
+    "title": "French FastPitch + HiFiGAN Demo",
+    "section": "Requirements",
+    "text": "Requirements\n\ntorch, numpy, matplotlib\n(Optional: speechbrain, librosa, soundfile, g2p-en or g2p-fr)"
+  },
+  {
+    "objectID": "notebooks/fastpitch-hifigan-demo.html#example-workflow",
+    "href": "notebooks/fastpitch-hifigan-demo.html#example-workflow",
+    "title": "French FastPitch + HiFiGAN Demo",
+    "section": "Example Workflow",
+    "text": "Example Workflow\n\nConvert French text to phonemes (G2P)\nGenerate mel-spectrograms with FastPitch\nSynthesize audio with HiFi-GAN\n\n\n# Placeholder for G2P conversion (pseudo-code)\nfrench_text = \"Bonjour tout le monde, ceci est une synthèse vocale.\"\n# phonemes = g2p_fr(french_text)\n# print(\"Phonemes:\", phonemes)\nprint(\"Pretend this is the phoneme output for:\", french_text)\n\n\n# Placeholder for FastPitch -&gt; mel-spectrogram (pseudo-code)\n# model = load_fastpitch_model()\n# mel = model.generate_mel(phonemes)\nprint(\"Generated mel-spectrogram (mock example)\")\n\n\n# Placeholder for HiFi-GAN vocoder (pseudo-code)\n# hifigan = load_hifigan_vocoder()\n# audio = hifigan.infer(mel)\nprint(\"Synthesized waveform (mock example)\")"
+  }
+]
