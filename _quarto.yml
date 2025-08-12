@@ -12,5 +12,5 @@ website:
         href: notebooks/fastpitch-hifigan-demo.ipynb
 format:
   html:
-    theme: cosmo
+    theme: flatly
     toc: true
