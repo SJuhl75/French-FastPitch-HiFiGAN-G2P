@@ -22,3 +22,10 @@ This site documents experiments, demos, and resources about building French Text
 ---
 
 *Feel free to fork, contribute, or reach out!*  
+```mermaid
+flowchart TD
+  A[Download Speech Corpus] --> B[Preprocess]
+  B --> C[Train FastPitch]
+  C --> D[Train HiFiGAN]
+  D --> E[Use G2P]
+```

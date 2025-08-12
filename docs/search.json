@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "French FastPitch HiFiGAN G2P",
     "section": "",
-    "text": "This site documents experiments, demos, and resources about building French Text-to-Speech systems using FastPitch, HiFi-GAN, and G2P (grapheme-to-phoneme conversion).\n\nExplore Jupyter Notebooks for interactive code and experiments.\nSee the README for setup and contribution instructions.\n\n\n\n\n\nTTS pipelines and models for French\nFastPitch training and inference\nHiFi-GAN vocoder usage\nG2P techniques and data\nAudio samples and evaluation\n\n\nFeel free to fork, contribute, or reach out!"
+    "text": "This site documents experiments, demos, and resources about building French Text-to-Speech systems using FastPitch, HiFi-GAN, and G2P (grapheme-to-phoneme conversion).\n\nExplore Jupyter Notebooks for interactive code and experiments.\nSee the README for setup and contribution instructions.\n\n\n\n\n\nTTS pipelines and models for French\nFastPitch training and inference\nHiFi-GAN vocoder usage\nG2P techniques and data\nAudio samples and evaluation\n\n\nFeel free to fork, contribute, or reach out!\nflowchart TD\n  A[Download Speech Corpus] --&gt; B[Preprocess]\n  B --&gt; C[Train FastPitch]\n  C --&gt; D[Train HiFiGAN]\n  D --&gt; E[Use G2P]"
   },
   {
     "objectID": "index.html#topics",
     "href": "index.html#topics",
     "title": "French FastPitch HiFiGAN G2P",
     "section": "",
-    "text": "TTS pipelines and models for French\nFastPitch training and inference\nHiFi-GAN vocoder usage\nG2P techniques and data\nAudio samples and evaluation\n\n\nFeel free to fork, contribute, or reach out!"
+    "text": "TTS pipelines and models for French\nFastPitch training and inference\nHiFi-GAN vocoder usage\nG2P techniques and data\nAudio samples and evaluation\n\n\nFeel free to fork, contribute, or reach out!\nflowchart TD\n  A[Download Speech Corpus] --&gt; B[Preprocess]\n  B --&gt; C[Train FastPitch]\n  C --&gt; D[Train HiFiGAN]\n  D --&gt; E[Use G2P]"
   },
   {
     "objectID": "README_GP.html",

@@ -160,6 +160,11 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 <p><em>Feel free to fork, contribute, or reach out!</em></p>
+<pre class="mermaid"><code>flowchart TD
+  A[Download Speech Corpus] --&gt; B[Preprocess]
+  B --&gt; C[Train FastPitch]
+  C --&gt; D[Train HiFiGAN]
+  D --&gt; E[Use G2P]</code></pre>
 
 
 </section>
