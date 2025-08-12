@@ -1,5 +1,3 @@
-!README.html
-!README_files/*
 /.quarto/
 search.json
 *.html
@@ -7,3 +5,10 @@ search.json
 *.js
 *.woff
 DEADJOE
+
+# Unignore all files in README_files (including subfolders)
+!README.html
+!README_files/
+!README_files/**
+# Or, more concise if you want only .js in README_files and subfolders:
+!README_files/**/*.js
